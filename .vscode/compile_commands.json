@@ -1,6 +1,12 @@
 [
 {
   "directory": "/media/furkan/1TBssd/DESKTOP/Software/Cpp/CppQuizReview/review/build",
+  "command": "/usr/bin/c++   -std=c++20 -Wall -Wextra -g -o CMakeFiles/LinkedList.dir/src/LinkedList/LinkedList.cpp.o -c /media/furkan/1TBssd/DESKTOP/Software/Cpp/CppQuizReview/review/src/LinkedList/LinkedList.cpp",
+  "file": "/media/furkan/1TBssd/DESKTOP/Software/Cpp/CppQuizReview/review/src/LinkedList/LinkedList.cpp",
+  "output": "CMakeFiles/LinkedList.dir/src/LinkedList/LinkedList.cpp.o"
+},
+{
+  "directory": "/media/furkan/1TBssd/DESKTOP/Software/Cpp/CppQuizReview/review/build",
   "command": "/usr/bin/c++   -std=c++20 -Wall -Wextra -g -o CMakeFiles/deneme.dir/src/deneme.cpp.o -c /media/furkan/1TBssd/DESKTOP/Software/Cpp/CppQuizReview/review/src/deneme.cpp",
   "file": "/media/furkan/1TBssd/DESKTOP/Software/Cpp/CppQuizReview/review/src/deneme.cpp",
   "output": "CMakeFiles/deneme.dir/src/deneme.cpp.o"

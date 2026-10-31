@@ -19,6 +19,20 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 
 # ----------------------------------------------------------------------
+# LinkedList   (main in src/LinkedList/LinkedList.cpp)
+# ----------------------------------------------------------------------
+
+add_executable(LinkedList
+    src/LinkedList/LinkedList.cpp
+)
+
+target_compile_options(LinkedList PRIVATE -Wall -Wextra -g)
+
+# Build and run:  cmake --build build --target run_LinkedList
+add_custom_target(run_LinkedList COMMAND LinkedList DEPENDS LinkedList)
+
+
+# ----------------------------------------------------------------------
 # deneme   (main in src/deneme.cpp)
 # ----------------------------------------------------------------------
 

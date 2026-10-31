@@ -44,6 +44,10 @@ int main() {
     // direk yeni değişkene atanır referans değil anın adresini tutan selamın pointerırın değerini yeni değişken fura kopyalar
     int fur = *selam;
 
+    int* y = nullptr;
+
+    
+
     std::cout << ref << std::endl;
     std::cout << ref2 << std::endl;
     std::cout << *selam << std::endl;
