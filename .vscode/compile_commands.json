@@ -1,32 +1,38 @@
 [
 {
-  "directory": "/media/furkan/1TBssd/DESKTOP/Software/Cpp/CppQuizReview/review/build",
-  "command": "/usr/bin/c++   -std=c++20 -Wall -Wextra -g -o CMakeFiles/LinkedList.dir/src/LinkedList/LinkedList.cpp.o -c /media/furkan/1TBssd/DESKTOP/Software/Cpp/CppQuizReview/review/src/LinkedList/LinkedList.cpp",
-  "file": "/media/furkan/1TBssd/DESKTOP/Software/Cpp/CppQuizReview/review/src/LinkedList/LinkedList.cpp",
+  "directory": "/data/data/com.termux/files/home/software/languages/cpp/quizReview/cppReview/build",
+  "command": "/data/data/com.termux/files/usr/bin/c++   -O2 -g -DNDEBUG -std=c++20 -Wall -Wextra -g -o CMakeFiles/LinkedList.dir/src/LinkedList/LinkedList.cpp.o -c /data/data/com.termux/files/home/software/languages/cpp/quizReview/cppReview/src/LinkedList/LinkedList.cpp",
+  "file": "/data/data/com.termux/files/home/software/languages/cpp/quizReview/cppReview/src/LinkedList/LinkedList.cpp",
   "output": "CMakeFiles/LinkedList.dir/src/LinkedList/LinkedList.cpp.o"
 },
 {
-  "directory": "/media/furkan/1TBssd/DESKTOP/Software/Cpp/CppQuizReview/review/build",
-  "command": "/usr/bin/c++   -std=c++20 -Wall -Wextra -g -o CMakeFiles/deneme.dir/src/deneme.cpp.o -c /media/furkan/1TBssd/DESKTOP/Software/Cpp/CppQuizReview/review/src/deneme.cpp",
-  "file": "/media/furkan/1TBssd/DESKTOP/Software/Cpp/CppQuizReview/review/src/deneme.cpp",
+  "directory": "/data/data/com.termux/files/home/software/languages/cpp/quizReview/cppReview/build",
+  "command": "/data/data/com.termux/files/usr/bin/c++   -O2 -g -DNDEBUG -std=c++20 -Wall -Wextra -g -o CMakeFiles/deneme.dir/src/deneme.cpp.o -c /data/data/com.termux/files/home/software/languages/cpp/quizReview/cppReview/src/deneme.cpp",
+  "file": "/data/data/com.termux/files/home/software/languages/cpp/quizReview/cppReview/src/deneme.cpp",
   "output": "CMakeFiles/deneme.dir/src/deneme.cpp.o"
 },
 {
-  "directory": "/media/furkan/1TBssd/DESKTOP/Software/Cpp/CppQuizReview/review/build",
-  "command": "/usr/bin/c++   -std=c++20 -Wall -Wextra -g -o CMakeFiles/quiz_1.dir/src/quiz_1.cpp.o -c /media/furkan/1TBssd/DESKTOP/Software/Cpp/CppQuizReview/review/src/quiz_1.cpp",
-  "file": "/media/furkan/1TBssd/DESKTOP/Software/Cpp/CppQuizReview/review/src/quiz_1.cpp",
+  "directory": "/data/data/com.termux/files/home/software/languages/cpp/quizReview/cppReview/build",
+  "command": "/data/data/com.termux/files/usr/bin/c++   -O2 -g -DNDEBUG -std=c++20 -Wall -Wextra -g -o CMakeFiles/quiz_1.dir/src/quiz_1.cpp.o -c /data/data/com.termux/files/home/software/languages/cpp/quizReview/cppReview/src/quiz_1.cpp",
+  "file": "/data/data/com.termux/files/home/software/languages/cpp/quizReview/cppReview/src/quiz_1.cpp",
   "output": "CMakeFiles/quiz_1.dir/src/quiz_1.cpp.o"
 },
 {
-  "directory": "/media/furkan/1TBssd/DESKTOP/Software/Cpp/CppQuizReview/review/build",
-  "command": "/usr/bin/c++   -std=c++20 -Wall -Wextra -g -o CMakeFiles/review.dir/src/review.cpp.o -c /media/furkan/1TBssd/DESKTOP/Software/Cpp/CppQuizReview/review/src/review.cpp",
-  "file": "/media/furkan/1TBssd/DESKTOP/Software/Cpp/CppQuizReview/review/src/review.cpp",
+  "directory": "/data/data/com.termux/files/home/software/languages/cpp/quizReview/cppReview/build",
+  "command": "/data/data/com.termux/files/usr/bin/c++   -O2 -g -DNDEBUG -std=c++20 -Wall -Wextra -g -o CMakeFiles/review.dir/src/review.cpp.o -c /data/data/com.termux/files/home/software/languages/cpp/quizReview/cppReview/src/review.cpp",
+  "file": "/data/data/com.termux/files/home/software/languages/cpp/quizReview/cppReview/src/review.cpp",
   "output": "CMakeFiles/review.dir/src/review.cpp.o"
 },
 {
-  "directory": "/media/furkan/1TBssd/DESKTOP/Software/Cpp/CppQuizReview/review/build",
-  "command": "/usr/bin/c++   -std=c++20 -Wall -Wextra -g -o CMakeFiles/review2.dir/src/review2.cpp.o -c /media/furkan/1TBssd/DESKTOP/Software/Cpp/CppQuizReview/review/src/review2.cpp",
-  "file": "/media/furkan/1TBssd/DESKTOP/Software/Cpp/CppQuizReview/review/src/review2.cpp",
+  "directory": "/data/data/com.termux/files/home/software/languages/cpp/quizReview/cppReview/build",
+  "command": "/data/data/com.termux/files/usr/bin/c++   -O2 -g -DNDEBUG -std=c++20 -Wall -Wextra -g -o CMakeFiles/review2.dir/src/review2.cpp.o -c /data/data/com.termux/files/home/software/languages/cpp/quizReview/cppReview/src/review2.cpp",
+  "file": "/data/data/com.termux/files/home/software/languages/cpp/quizReview/cppReview/src/review2.cpp",
   "output": "CMakeFiles/review2.dir/src/review2.cpp.o"
+},
+{
+  "directory": "/data/data/com.termux/files/home/software/languages/cpp/quizReview/cppReview/build",
+  "command": "/data/data/com.termux/files/usr/bin/c++   -O2 -g -DNDEBUG -std=c++20 -Wall -Wextra -g -o CMakeFiles/Stack.dir/src/stackList/Stack.cpp.o -c /data/data/com.termux/files/home/software/languages/cpp/quizReview/cppReview/src/stackList/Stack.cpp",
+  "file": "/data/data/com.termux/files/home/software/languages/cpp/quizReview/cppReview/src/stackList/Stack.cpp",
+  "output": "CMakeFiles/Stack.dir/src/stackList/Stack.cpp.o"
 }
 ]

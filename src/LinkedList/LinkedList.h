@@ -7,6 +7,11 @@ class LinkedList {
     public:
     Node* head;
     Node* prev;
+
+    LinkedList() {
+        head = nullptr;
+        prev = nullptr;
+    }
     
     void add(int data);
     void remove(int data);

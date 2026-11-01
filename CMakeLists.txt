@@ -3,7 +3,7 @@
 # ======================================================================
 
 cmake_minimum_required(VERSION 3.20)
-project(review LANGUAGES CXX)
+project(cppReview LANGUAGES CXX)
 
 # C++ standard (C++20)
 set(CMAKE_CXX_STANDARD 20)
@@ -19,7 +19,7 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 
 # ----------------------------------------------------------------------
-# LinkedList   (main in src/LinkedList/LinkedList.cpp)
+# LinkedList (main in src/LinkedList/LinkedList.cpp)
 # ----------------------------------------------------------------------
 
 add_executable(LinkedList
@@ -33,7 +33,7 @@ add_custom_target(run_LinkedList COMMAND LinkedList DEPENDS LinkedList)
 
 
 # ----------------------------------------------------------------------
-# deneme   (main in src/deneme.cpp)
+# deneme (main in src/deneme.cpp)
 # ----------------------------------------------------------------------
 
 add_executable(deneme
@@ -47,7 +47,7 @@ add_custom_target(run_deneme COMMAND deneme DEPENDS deneme)
 
 
 # ----------------------------------------------------------------------
-# quiz_1   (main in src/quiz_1.cpp)
+# quiz_1 (main in src/quiz_1.cpp)
 # ----------------------------------------------------------------------
 
 add_executable(quiz_1
@@ -61,7 +61,7 @@ add_custom_target(run_quiz_1 COMMAND quiz_1 DEPENDS quiz_1)
 
 
 # ----------------------------------------------------------------------
-# review   (main in src/review.cpp)
+# review (main in src/review.cpp)
 # ----------------------------------------------------------------------
 
 add_executable(review
@@ -75,7 +75,7 @@ add_custom_target(run_review COMMAND review DEPENDS review)
 
 
 # ----------------------------------------------------------------------
-# review2   (main in src/review2.cpp)
+# review2 (main in src/review2.cpp)
 # ----------------------------------------------------------------------
 
 add_executable(review2
@@ -86,6 +86,20 @@ target_compile_options(review2 PRIVATE -Wall -Wextra -g)
 
 # Build and run:  cmake --build build --target run_review2
 add_custom_target(run_review2 COMMAND review2 DEPENDS review2)
+
+
+# ----------------------------------------------------------------------
+# Stack (main in src/stackList/Stack.cpp)
+# ----------------------------------------------------------------------
+
+add_executable(Stack
+    src/stackList/Stack.cpp
+)
+
+target_compile_options(Stack PRIVATE -Wall -Wextra -g)
+
+# Build and run:  cmake --build build --target run_Stack
+add_custom_target(run_Stack COMMAND Stack DEPENDS Stack)
 
 
 # <<< AUTO-MANAGED <<<

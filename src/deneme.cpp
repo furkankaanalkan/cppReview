@@ -67,6 +67,8 @@ int main() {
 
     MyClass myfru(10, 20);
 
+    
+
 
 
 

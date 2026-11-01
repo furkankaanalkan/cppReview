@@ -6,74 +6,78 @@
 
 void LinkedList::add(int data) {
     Node* newNode = new Node(data);
+
     if (head == nullptr) {
-        head = prev = newNode;
+        head = newNode; 
     } else {
         Node* current = head;
-
+        
+        // Ekleme işleminde son düğümde durmamız gerektiği için current->next kontrolü DOĞRUDUR.
         while (current->next != nullptr) {
             current = current->next;
         }
 
-        (*current).next = newNode;
+        current->next = newNode;
         newNode->prev = current;
-        current = newNode;
-        std::cout << std::format("added --> {}\n",data);
-
     }
-};
-
-void LinkedList::remove(int data){
-    Node* current = head;
     
+    // Hem ilk eleman eklendiğinde hem de sonrakilerde ekrana yazması için dışarı alındı
+    std::cout << std::format("added --> {}\n", data); 
+}
+
+void LinkedList::remove(int data) {
+    Node* current = head;
+
     if (head == nullptr) {
-        std::cout<< "you cant remove in empty list" << std::endl;
+        std::cout << "you cant remove in empty list\n";
         return;
     }
-    else  {
-        while (current->next != nullptr) {
 
-            if (current->data == data){
-
-                 if (current == head) {
-                    current->prev = nullptr;
-                    current->next = nullptr;
-                    return;
-                } 
-                else{
-                    current->prev->next = current->next;
-                    if (current->next != nullptr) {
-                        current->next->prev = current->prev;
-                    }
+    // Son elemanı da kontrol edebilmek için current->next yerine current kontrol edilmeli
+    while (current != nullptr) {
+        if (current->data == data) {
+            if (current == head) {
+                // Eğer silinen baştaki elemansa head'i bir sonrakine kaydır
+                head = current->next;
+                if (head != nullptr) {
+                    head->prev = nullptr;
                 }
-
-                std::cout << std::format("delted --> {}",data);
-                delete current;
-                return;
+            } 
+            else {
+                // Ortadan veya sondan siliniyorsa
+                current->prev->next = current->next;
+                if (current->next != nullptr) {
+                    current->next->prev = current->prev;
+                }
             }
-           
-           current = (*current).next;
-        }  
-    }
-};
 
-void LinkedList::display(){
+            std::cout << std::format("deleted --> {}\n", data);
+            delete current; // Düğümü bellekten temizle (ÇOK ÖNEMLİ)
+            return;
+        }
+        current = current->next;
+    }
+    
+    std::cout << std::format("{} not found in the list\n", data);
+}
+
+void LinkedList::display() {
     Node* current = head;
 
-    if (head == nullptr){
-        std::cout<< "the list is empty" << std::endl;
-    }
+    if (head == nullptr) {
+        std::cout << "the list is empty\n";
+    } 
     else {
-        while (current->next != nullptr){
-            std::cout << std::format("delted --> {}",current->data);
-            
+        std::cout << "List: ";
+        while (current != nullptr) {
+            std::cout << std::format("{} ", current->data);
             current = current->next;
         }
+        std::cout << "\n";
     }
 }
 
-
-int main(){
+int main() {
 
     LinkedList myList;
 
@@ -92,4 +96,6 @@ int main(){
     myList.remove(74);
 
     myList.display();
-};
+    
+    return 0;
+}
